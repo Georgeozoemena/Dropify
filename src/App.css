@@ -1,0 +1,188 @@
+/* Dashboard main*/
+.dashboard {
+    display: flex;
+}
+
+.dashboard div {
+}
+
+/* Navigation Bar */
+.nav-bar-section {
+    padding: 16px 0;
+}
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-user h2 {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.welcome-user p {
+    font-weight: 400;
+    color: #c0bfbf;
+}
+
+.action-icons-container, .nav-bar-actions {
+    display: flex;
+}
+
+.nav-bar-actions {
+    height: 6vh;
+    align-items: center;
+}
+
+.action-icons-container div {
+    width: 35px;
+    height: 35px;
+    margin: 6px;
+    border-radius: 100%;
+    background-color: #373737;
+}
+
+/* Left Panel */
+.left-panel-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    width: 240px;
+    margin-right: 8px;
+    height: 100vh;
+}
+
+.menu-section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-section1 .logo {
+    margin: 8px 8px 50px;
+}
+
+.menu button {
+    margin: 8px 0;
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    color: #929292;
+    background-color: #fff;
+}
+
+.menu button:nth-child(2) {
+    color: #fff;
+    background-color: #9588e8;
+}
+
+.menu button:hover, .menu button:hover:nth-child(2), .menu button:focus {
+    font-weight: 500;
+    color: #fff;
+    background-color: #9588e8;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-section .username {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.profile-section .location {
+    font-size: 11px;
+    color: #9e9e9e;
+}
+
+.profile-photo {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 100%;
+    background-color: #9588e8;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn-container img {
+    margin-right: 8px;
+}
+
+/* Order Page */
+.orders-page {
+    width: 100%;
+    padding: 0 24px;
+}
+
+.periodic-analysis-section {
+    display: flex;
+}
+
+.analysis-card, .product-details-card {
+    width: 100%;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: #9588e813;
+}
+
+.analysis-card:nth-child(2), .detail-section2 {
+    margin: 0 12px;
+}
+
+.analysis-text-section h2 {
+    font-weight: 500;
+    color: #797878d3;
+}
+
+.analysis {
+    display: flex;
+    align-items: center;
+}
+
+.analysis-icon {
+    height: 35px;
+    width: 35px;
+    margin-right: 8px;
+    border-radius: 100%;
+    background-color: #373737;
+}
+
+.analysis p {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.product-details-section {
+    display: flex;
+    min-height: 70vh;
+}
+
+.product-details-section div {
+    display: flex;
+    flex-direction: column;
+    flex: content;
+    width: 100%;
+}
+
+.product-details-card {
+    margin: 12px 0;
+    padding: 2px 16px;
+}
+
+.detail-section3 .product-details-card {
+    background-image: url("./components/ui/Basemap.jpg");
+}
+
+.details-headline {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 48px;
+}
